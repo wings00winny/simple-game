@@ -1,0 +1,71 @@
+ body {
+font-family: 'Frijole', cursive;
+background: #ffc0cb;
+}
+#SIMPLEGAME {
+     margin-left: 10px;
+     background: white;
+     padding: 10px 20px 10px 20px;
+     width: 400px;
+     border-radius: 20px;
+     float: left;
+     }
+ input {
+     margin-bottom : 20px;
+     display : block;
+     background: purple;
+     
+}
+# textbox {
+     height: 25px; 
+     font-size: 16px;
+     border-radius: 5px;
+     border: none;
+     padding-left: 5px; 
+}
+
+# button {
+      background: red;
+      border: white;
+      border-radius: 5px;
+      padding: 10px;
+      color: black;
+      font-size: 10px;
+      margin-top: 15px;
+}
+
+# button: hover  {
+  background: red;
+  border: 1px solid green;
+  color: black;
+  cursor: pointer;
+}
+# after-submit {
+      visibility: hidden;
+      background: white;
+      padding: 10px 20px 10px 20px;
+      width : 400px;
+      border-radius: 20px;
+      float: left;
+      margin-left: 20px;
+      font-size: 30px;
+}
+
+# picture {
+  width: 325px;
+  height: 255px;
+  
+  
+}
+
+# img {
+  display: inline;
+}
+
+  
+ 
+      
+
+
+
+
