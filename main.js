@@ -30,17 +30,17 @@ correct++;
 if (question7 == "Clara"){
 correct++;
 } 
+
 var message =["Kamu orangnya asiik bakat jadi artis dadakan","ya kamu bisalah buat ditongkrongin","Kudet dasar"];
 var picture =["img/menang.gif","img/sedang.gif","img/kalah.gif"];
-
 var range;
 if (correct < 2){
  range = 2;
 }
-if (correct == 2 && correct < 5){
+if (correct === 2 && correct < 3){
  range = 1;
 }
-if (correct == 5){
+if (correct > 3 && correct <==7){
  range = 0;
 }
 
