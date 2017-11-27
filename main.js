@@ -37,7 +37,7 @@ var range;
 if (correct < 2){
  range = 2;
 }
-if (correct === 2 && correct < 3){
+if (correct === 2 && correct <== 3){
  range = 1;
 }
 if (correct > 3 && correct <==7){
